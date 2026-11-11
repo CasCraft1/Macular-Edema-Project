@@ -31,7 +31,6 @@ STATS_SUMMARY_CSV = "checkpoint2_statistical_tests.csv"
 
 BIOMARKER_COLS = [
     "Atrophy / thinning of retinal layers",
-    "Atrophy / thinning of retinal layer",
     "Disruption of EZ",
     "DRIL",
     "IR hemorrhages",
