@@ -64,9 +64,6 @@ MODEL_RESULTS_CSV = os.path.join(SCRIPT_DIR, "checkpoint3_model_comparison.csv")
 IMPORTANCE_CSV = os.path.join(SCRIPT_DIR, "checkpoint3_feature_importance.csv")
 SUMMARY_PLOT_PNG = os.path.join(SCRIPT_DIR, "checkpoint3_results.png")
 
-INJECTION_COST_USD = 2000.0  # Benchmark anti-VEGF injection cost (Puri, 2026)
-
-
 def load_and_engineer_features(csv_path: str) -> pd.DataFrame:
     """Load the clean visit-level panel and build causal longitudinal features for TREX-DME."""
     df = pd.read_csv(csv_path)
