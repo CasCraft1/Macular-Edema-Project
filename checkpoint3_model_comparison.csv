@@ -1,0 +1,29 @@
+Task,Feature_Set,Model,ROC_AUC,PR_AUC,Accuracy,Brier_Score,MAE,RMSE,R2
+All TREX-DME Visits (n=821),"M1: Static Snapshot (CST, BCVA)",Logistic Regression (L2),0.9117,0.8945,0.8587,0.1175,,,
+All TREX-DME Visits (n=821),"M1: Static Snapshot (CST, BCVA)",Random Forest,0.8974,0.8636,0.8551,0.1164,,,
+All TREX-DME Visits (n=821),"M1: Static Snapshot (CST, BCVA)",HistGradientBoosting,0.9004,0.8759,0.8465,0.1185,,,
+All TREX-DME Visits (n=821),M2: Longitudinal Trajectory,Logistic Regression (L2),0.9179,0.9127,0.8514,0.1142,,,
+All TREX-DME Visits (n=821),M2: Longitudinal Trajectory,Random Forest,0.925,0.9198,0.8563,0.1064,,,
+All TREX-DME Visits (n=821),M2: Longitudinal Trajectory,HistGradientBoosting,0.9182,0.9158,0.8465,0.1102,,,
+All TREX-DME Visits (n=821),M3: Multimodal (Trajectory + OCT),Logistic Regression (L2),0.8949,0.885,0.8161,0.1303,,,
+All TREX-DME Visits (n=821),M3: Multimodal (Trajectory + OCT),Random Forest,0.9162,0.9037,0.8538,0.1161,,,
+All TREX-DME Visits (n=821),M3: Multimodal (Trajectory + OCT),HistGradientBoosting,0.9131,0.9126,0.8441,0.1129,,,
+Dry-to-Rebound Early Warning (n=428),"M1: Static Snapshot (CST, BCVA)",Logistic Regression (L2),0.6844,0.23,0.6355,0.2282,,,
+Dry-to-Rebound Early Warning (n=428),"M1: Static Snapshot (CST, BCVA)",Random Forest,0.6182,0.1702,0.6472,0.2227,,,
+Dry-to-Rebound Early Warning (n=428),"M1: Static Snapshot (CST, BCVA)",HistGradientBoosting,0.6033,0.1546,0.6238,0.2222,,,
+Dry-to-Rebound Early Warning (n=428),M2: Longitudinal Trajectory,Logistic Regression (L2),0.7958,0.3012,0.7056,0.1893,,,
+Dry-to-Rebound Early Warning (n=428),M2: Longitudinal Trajectory,Random Forest,0.7453,0.2626,0.7617,0.1641,,,
+Dry-to-Rebound Early Warning (n=428),M2: Longitudinal Trajectory,HistGradientBoosting,0.6968,0.2162,0.7664,0.1574,,,
+Dry-to-Rebound Early Warning (n=428),M3: Multimodal (Trajectory + OCT),Logistic Regression (L2),0.7161,0.2329,0.6799,0.2084,,,
+Dry-to-Rebound Early Warning (n=428),M3: Multimodal (Trajectory + OCT),Random Forest,0.6975,0.213,0.7687,0.1624,,,
+Dry-to-Rebound Early Warning (n=428),M3: Multimodal (Trajectory + OCT),HistGradientBoosting,0.6547,0.1673,0.8061,0.1403,,,
+Next-Visit CST_t_plus_1 (um),Baseline: Naive Persistence,Carry-Forward (y_t+1 = y_t),,,,,26.558,46.784,0.6612
+Next-Visit CST_t_plus_1 (um),M2: Longitudinal Trajectory,Ridge Regression,,,,,25.642,41.777,0.7298
+Next-Visit CST_t_plus_1 (um),M2: Longitudinal Trajectory,HistGradientBoosting,,,,,29.342,45.52,0.6792
+Next-Visit CST_t_plus_1 (um),M3: Multimodal (Trajectory + OCT),Ridge Regression,,,,,27.95,43.776,0.7033
+Next-Visit CST_t_plus_1 (um),M3: Multimodal (Trajectory + OCT),HistGradientBoosting,,,,,29.917,46.85,0.6602
+Next-Visit BCVA_t_plus_1 (letters),Baseline: Naive Persistence,Carry-Forward (y_t+1 = y_t),,,,,3.211,4.487,0.8077
+Next-Visit BCVA_t_plus_1 (letters),M2: Longitudinal Trajectory,Ridge Regression,,,,,3.118,4.203,0.8314
+Next-Visit BCVA_t_plus_1 (letters),M2: Longitudinal Trajectory,HistGradientBoosting,,,,,3.899,6.039,0.6518
+Next-Visit BCVA_t_plus_1 (letters),M3: Multimodal (Trajectory + OCT),Ridge Regression,,,,,3.237,4.322,0.8217
+Next-Visit BCVA_t_plus_1 (letters),M3: Multimodal (Trajectory + OCT),HistGradientBoosting,,,,,3.921,6.013,0.6548
