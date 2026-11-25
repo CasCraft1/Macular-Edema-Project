@@ -26,7 +26,6 @@ Because TREX is **reactive**, doctors wait for swelling to return before interve
 | `checkpoint3_model_comparison.csv` | Out-of-fold 5-fold CV performance table (28 rows) comparing all models across 4 tasks: All Visits Rebound, Dry-to-Rebound Early Warning, Next-Visit CST Regression, and Next-Visit BCVA Regression. |
 | `checkpoint3_feature_importance.csv` | Pooled out-of-fold permutation importance (`Importance_Mean_AUC_Drop` +/- `Importance_SD`) for all 11 features in the winning Dry-to-Rebound model (`M2`). |
 | `checkpoint3_results.png` | 3-panel Checkpoint 3 summary figure: (1) Dry-to-Rebound ROC curves (`M1` vs. `M2` vs. `M3`), (2) Top 8 out-of-fold M2 predictors, and (3) Proactive TREX threshold tradeoff curve for M2. |
-| `PresentationME.pdf` | Project presentation slides. |
 | `OLIVES_Dataset_Labels/` | Raw OLIVES clinical and biomarker label spreadsheets/CSVs (`full_labels/` and `ml_centric_labels/`) plus study summaries. |
 | `References/` | Reference paper (`12967_2024_Article_5141.pdf`), supplementary table (`12967_2024_5141_MOESM2_ESM.xlsx`), and `ML Notes.odt`. |
 | `LICENSE` | Repository license file. |
